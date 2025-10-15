@@ -2,7 +2,7 @@
 
 ## 📊 Dataset Information  
 - **Source:** [UCI Machine Learning Repository – Adult Dataset](https://archive.ics.uci.edu/ml/datasets/adult)  
-- **Description:** This dataset contains demographic and employment-related attributes for ~48,000 individuals from the 1994 U.S. Census. The target variable is income: whether a person earns more than \$50K per year. The project is a complete ML workflow covering dataset exploration, cleaning, analysis, preprocessing and building and evaluating both baseline and carefully tuned models.  
+- **Description:** This dataset contains demographic and employment-related attributes for ~48,000 individuals from the 1994 U.S. Census. The target variable is income: whether a person earns more than \$50K per year. The project is a complete Machine Learning workflow covering dataset exploration, cleaning, analysis, preprocessing and building and evaluating both baseline and carefully tuned models.  
 
 ---
 
@@ -55,10 +55,10 @@ Key findings:
 ---
 
 ## 🚀 Recommendations for Future Work  
-- **Collecting more Balanced Data:** Gettin more data for the minority class
+- **Collecting more Balanced Data:** Getting more data for the minority class
 - **SMOTE / Oversampling:** Further address class imbalance by generating synthetic samples of the minority class.  
 - **Feature Selection & Engineering:** Explore new derived features and remove less informative ones to reduce noise.  
-- **Model Ensembling:** Combine multiple tuned models (stacking or blending) to improve robustness.  
+- **Model Stacking:** Combine multiple tuned models (stacking or blending) to improve robustness.  
 - **Explainability Tools (e.g., SHAP):** Provide deeper feature importance at the individual prediction level to improve trust and transparency.  
 
 ---
