@@ -42,12 +42,15 @@ Key findings:
 
 ## 📈 Key Results  
 
-| Model | Accuracy (Tuned) | Recall (Tuned) | ROC AUC (Tuned) |
-|-------|-----------------|---------------|----------------|
-| Logistic Regression | 0.801 | 0.843 | 0.894 |
-| Random Forest | 0.830 | 0.848 | 0.916 |
-| XGBoost | **0.837** | **0.874** | **0.930** |
-| SVM | 0.807 | 0.865 | 0.905 |
+| Model | Accuracy (Tuned) | Recall (Tuned) | Precision (Tuned) | ROC AUC (Tuned) |
+|-------|-----------------|---------------|----------------|----------------|
+| XGBoost | **0.837** | **0.874** | **0.623** | **0.930** |
+| Random Forest | 0.830 | 0.848 | 0.615 | 0.916 |
+| SVM | 0.807 | 0.865 | 0.574 | 0.905 |
+| Logistic Regression | 0.801 | 0.843 | 0.567 | 0.894 |
+
+
+
 
 - **XGBoost** achieved the **highest recall and ROC AUC**, making it the best at identifying high-income individuals.  
 - Trade-offs between precision and recall were carefully managed; improving recall for the >\$50K class required accepting slightly lower precision.  
