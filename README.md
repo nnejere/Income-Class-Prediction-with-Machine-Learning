@@ -15,7 +15,8 @@ Predicting income levels based on demographic and employment features can help r
 - Build a machine learning model capable of accurately predicting whether an individual earns **> \$50K annually**.  
 - Understand key demographic and employment factors that influence income levels.  
 - Compare baseline and tuned versions of multiple algorithms to evaluate trade-offs between precision and recall.  
-- Establish a reusable pipeline for data cleaning, preprocessing, modeling, and evaluation.  
+- Establish a reusable pipeline for data cleaning, preprocessing, modeling, and evaluation.
+- Deploy the model as an application on streamlit for inference 
 
 ---
 
@@ -67,5 +68,8 @@ Key findings:
 ---
 
 ## 🏁 Conclusion  
-This project demonstrates the value of a structured ML workflow — from data cleaning, EDA, and preprocessing to modeling and evaluation. It provides a strong, extensible framework for income prediction and similar real-world classification tasks while highlighting the importance of balancing performance with fairness and interpretability.  
+This project demonstrates the value of a structured ML workflow — from data cleaning, EDA, and preprocessing to modeling and evaluation. It provides a strong, extensible framework for income prediction and similar real-world classification tasks while highlighting the importance of balancing performance with fairness and interpretability.
+I did not stop there, I also went ahead and deployed the project on streamlit. link to demo app below.
+
+Demo App: https://nnejere-ai-ml-inference-hub-app-298cc0.streamlit.app/
 
